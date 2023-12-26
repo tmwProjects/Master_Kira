@@ -1,0 +1,78 @@
+# Plotting gene concentrations through q-PCR data
+
+Data visualisation and analysis play a central role in modern scientific research. As part of the master's thesis 
+'Reduction of resistance genes through wastewater treatment', a Jupyter notebook was used to analyse and visualise data 
+on gene concentrations. This study focussed on the reduction of resistance genes in wastewater treatment plants, a topic 
+of crucial importance for public health and environmental protection. The data for this study were obtained using 
+quantitative Polymerase Chain Reaction (q-PCR), a sophisticated and precise method for measuring gene concentrations.
+
+Novembre 2023, Kira Kirchhoff (Bsc.)
+
+***
+
+## Content
+
+* [Folder structure](#folderstructure)
+* [Usage of this notebook](#usage-of-this-notebook)
+* [References](#references)
+* [License](#license)
+
+***
+
+#### Folder structure
+
+data:
+* 1. raw: Raw data used for processing.
+
+> **Note**: Was not used for this repository because the original data was not published and a random data set was created to run the Jupyter notebook.
+
+graphics: 
+* 1. graphics used for the Jupyter notebook and README.
+
+src:
+* 1. src = Source: Is the source of the actual work (code).
+* 2. src/ARG.ipynb: Jupyter notebook for the entire code.
+
+README.md:
+* 1. contains basic information about the repository and its handling.
+
+requirements.txt:
+* 1. contains a list of all libraries and their versions for future work on the PC or in connection with Binder and similar consorts.
+
+.gitignore:
+* 1. contains a list of data/folders that should NOT be uploaded when pushing to the remote repo.
+
+***
+
+### Usage of this notebook
+
+Launch this notebook on Binder in your browser by clicking the button:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tmwProjects/Master_Kira/HEAD?labpath=src%2FARG.ipynb)
+
+or scan the QR-Code to run this Notebook over Binder on your smartphone:
+
+![Binder-QR](https://raw.githubusercontent.com/tmwProjects/Kira_Master/main/grafics/kira_master.png)
+
+***
+
+### References
+
+Harris, C.R., Millman, K.J., van der Walt, S.J., Gommers, R., Virtanen, P., Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N.J., Kern, R., Picus, M., Hoyer, S., van Kerkwijk, M.H., Brett, M., Haldane, A., del Río, J.F., Wiebe, M., Peterson, P., Gérard-Marchant, P., Sheppard, K., Reddy, T., Weckesser, W., Abbasi, H., Gohlke, C., Oliphant, T.E., 2020. Array programming with NumPy. Nature 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
+
+Hunter, J.D., 2007. Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering 9, 90–95. https://doi.org/10.1109/MCSE.2007.55
+
+McKinney, W., 2010. Data Structures for Statistical Computing in Python. Presented at the Python in Science Conference, Austin, Texas, pp. 56–61. https://doi.org/10.25080/Majora-92bf1922-00a
+
+Waskom, M.L., 2021. seaborn: statistical data visualization. Journal of Open Source Software 6, 3021. https://doi.org/10.21105/joss.03021
+
+
+***
+
+### License
+
+**CC BY-NC-SA 4.0 Licence**
+
+With this licence, you may use, modify and share the work as long as you credit the original author. However, you may 
+not use it for commercial purposes, i.e. you may not make money from it. And if you make changes and share the new work, 
+it must be shared under the same conditions.
