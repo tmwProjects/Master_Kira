@@ -1,12 +1,8 @@
-# Plotting gene concentrations through q-PCR data
+# Plotting gene concentrations through qPCR data
 
-Data visualisation and analysis play a central role in modern scientific research. As part of the master's thesis 
-'Reduction of resistance genes through wastewater treatment', a Jupyter notebook was used to analyse and visualise data 
-on gene concentrations. This study focussed on the reduction of resistance genes in wastewater treatment plants, a topic 
-of crucial importance for public health and environmental protection. The data for this study were obtained using 
-quantitative Polymerase Chain Reaction (q-PCR), a sophisticated and precise method for measuring gene concentrations.
+The visualization and analysis of data play a central role in modern scientific research. In the context of the master's thesis "Reduction of resistance genes through wastewater treatment," a Jupyter Notebook was utilized for the analysis and visualization of data on gene concentrations quantified through qPCR from wastewater samples.This study focused on the reduction of resistance genes in different wastewater treatment plants using various purification processes. Observing resistance genes in wastewater is significant as it allows for tracking the spread of these genes and initiating elimination measures. Preventing the spread as much as possible is crucial, as it poses a risk to both health and the environment.
 
-Novembre 2023, Kira Kirchhoff (Bsc.)
+January 2024, Kira S. Kirchhoff (Bsc.)
 
 ***
 
